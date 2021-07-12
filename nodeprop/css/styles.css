@@ -64,11 +64,11 @@ img {
 }
 
 .btn-close {
-    font-size: 3em;
+    font-size: 1.5em;
     color: #FFF;
     float: right;
     cursor: pointer;
-    margin-right: 5%;
+    margin: 2% 3% 0 0;
 }
 
 .menu ul {
