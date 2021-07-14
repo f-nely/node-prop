@@ -1,7 +1,7 @@
 <h1 align="center">NodeProp</h1>
 
 <h1 align="center">
-    <img alt="node-prop" title="node-prop" src="assets/screenshot.png" />
+    <img alt="node-prop" title="node-prop" src="assets/sceenshot.png" />
 </h1>
 
 <h4 align="center"> 
