@@ -26,13 +26,34 @@ img {
     max-width: 100%;
 }
 
-/* cabeçalho */
-.cabecalho {
+/*====== container ======*/
+.container {
     width: 100%;
     float: left;
     padding: 3% 4%;
+    text-align: center;
 }
 
+/*====== bg colors ======*/
+.bg-gradient {
+    background: linear-gradient(to right, #CE2E3C, #DA6709);
+}
+
+.bg-black {
+    background-color: #130400;
+}
+
+.bg-white {
+    background-color: #FFF;
+}
+
+/*====== helpers ======*/
+.radius {
+    border-radius: 7px;
+}
+
+
+/* cabeçalho */
 .logo {
     width: 56px;
     height: 56px;
@@ -49,7 +70,6 @@ img {
     color: #FFF;
     border-radius: 56px;
     cursor: pointer;
-    background: linear-gradient(to right, #CE2E3C, #DA6709);
 }
 
 /* menu */
@@ -93,10 +113,6 @@ img {
 
 /* banner */
 .banner {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
     background: url(../img/bg.jpg) no-repeat fixed;
 }
 
@@ -124,41 +140,28 @@ img {
     float: right;
 }
 
-.btn-cadastrar {
+.btn {
     width: 100%;
     font-size: 1.5em;
     text-align: left;
     cursor: pointer;
     padding: 5%;
-    border-radius: 10px;
-    background-color: #FFF;
+}
+
+.btn-cadastrar {
     color: #130400;
 }
 
 .btn-sobre {
-    width: 100%;
-    font-size: 1.5em;
-    text-align: left;
-    cursor: pointer;
-    padding: 5%;
-    border-radius: 10px;
-    background-color: #130400;
     color: #FFF;
     margin-top: 2%;
 }
 
 /* serviços */
-.servicos {
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-}
 
 .servico {
     width: 100%;
-    background-color: #FFF;
     text-align: left;
-    border-radius: 7px;
     margin-bottom: 3%;
 }
 
@@ -189,14 +192,6 @@ img {
 }
 
 /* newsletter */
-.newsletter {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
-    background-color: #130400;
-}
-
 .newsletter h2 {
     font-size: 1.5em;
     color: #FFF;
@@ -213,32 +208,20 @@ img {
 
 .newsletter input {
     width: 100%;
-    background-color: #130400;
     color: #FFF;
     border: 1px solid rgba(255, 255, 255, .3);
     padding: 5%;
-    border-radius: 5px;
 }
 
 .newsletter button {
     width: 100%;
-    background-color: #FFF;
     color: #130400;
     padding: 5%;
-    border-radius: 5px;
     cursor: pointer;
     margin-top: 2%;
 }
 
 /* rodapé */
-.rodape {
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-    text-align: center;
-    background: linear-gradient(to right, #CE2E3C, #DA6709);
-}
-
 .social-icons a {
     font-size: 1.5em;
     color: rgba(255, 255, 255, .7);
