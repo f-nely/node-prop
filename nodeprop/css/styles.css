@@ -240,3 +240,17 @@ img {
     margin-top: 2%;
     color: rgba(255, 255, 255, .7);
 }
+
+/* medias types */
+@media screen and (min-width: 320px) {
+    .title h2 {
+        font-size: 2.5em;
+        color: #eb3d34;
+        font-weight: 700;
+    }
+
+    .title h3 {
+        font-size: 1.5em;
+        color: #346beb;
+    }
+}
